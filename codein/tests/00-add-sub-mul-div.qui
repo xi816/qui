@@ -1,0 +1,35 @@
+# Test for math operations
+func write {
+  int times
+  repeat times { emit }
+}
+
+func nl {
+  10 emit
+}
+
+func main {
+  32 61 32 53 51 32 43 32 52 51 10 call write
+  34 35 + print call nl
+
+  32 61 32 48 48 50 32 43 32 48 50 50 12 call write
+  220 200 + print repeat 2 { call nl }
+
+  32 61 32 53 48 50 32 45 32 53 50 54 12 call write
+  625 205 - print call nl
+
+  32 61 32 49 32 45 32 48 55 9 call write
+  70 1 - print repeat 2 { call nl }
+
+  32 61 32 57 32 43 32 48 49 32 42 32 54 13 call write
+  6 10 * 9 + print call nl
+
+  32 61 32 55 32 42 32 48 54 9 call write
+  60 7 * print repeat 2 { call nl }
+
+  32 61 32 50 51 32 47 32 56 48 50 50 12 call write
+  2208 32 / print call nl
+
+  32 61 32 54 52 32 47 32 48 50 51 57 49 13 call write
+  19320 46 / print repeat 2 { call nl }
+}

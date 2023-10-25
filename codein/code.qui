@@ -1,0 +1,16 @@
+func nl {
+  10 emit
+}
+
+func main {
+  5 6 & print
+  call nl
+
+  9 4 ^ print
+  call nl
+
+  5 0 | print
+  call nl
+
+  0 ret
+}
